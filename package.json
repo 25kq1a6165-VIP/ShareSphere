@@ -1,0 +1,18 @@
+{
+  "name": "sharesphere",
+  "version": "1.0.0",
+  "description": "ShareSphere — Share Resources. Unlock Possibilities.",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install",
+    "dev": "node scripts/dev.js",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "test": "npm --prefix server test",
+    "seed": "npm --prefix server run seed",
+    "db:init": "npm --prefix server run db:init",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": ["resource-sharing", "equipment-booking", "laboratory", "campus", "full-stack", "express", "react", "mysql"],
+  "author": "ShareSphere Team",
+  "license": "MIT"
+}
